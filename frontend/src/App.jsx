@@ -38,7 +38,7 @@ export default function App() {
   const [bookingTime, setBookingTime] = useState('');
 
   // Backend connection URL fallback
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://hackverse-medi-ai-backend.onrender.com';
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://hackverse-medi-ai-backend-v2.onrender.com';
 
   // Handle AI Symptom Checker Submission
   const handleSymptomCheck = async (e) => {
