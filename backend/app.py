@@ -48,7 +48,7 @@ def analyze_symptoms():
         Include a prominent disclaimer that this is an AI tool and the patient must consult a doctor.
         """
 
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-1.5-flash-002')
         response = model.generate_content(prompt)
         
         return jsonify({
